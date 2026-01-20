@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Talita Yosevin Hutabarat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ff9ad5, #6ec6ff);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cv-container {
+      background: #ffffffee;
+      width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      padding: 30px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Dekorasi boneka (ilustrasi sederhana) */
+    .doll {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: radial-gradient(circle at top, #ffd1e8, #ff7eb3);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .doll::after {
+      content: '';
+      position: absolute;
+      bottom: -25px;
+      left: 15px;
+      width: 50px;
+      height: 40px;
+      border-radius: 0 0 20px 20px;
+      background: #6ec6ff;
+    }
+    .doll.left { top: 20px; left: -30px; }
+    .doll.right { bottom: 20px; right: -30px; }
+
+    header {
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid #6ec6ff;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 400px;
+      height: 160px;
+      border-radius: 70%;
+      background-image: url(pp\ lita\ .jpeg);
+      background-size: cover;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #0b4f6c;
+    }
+
+    .header-text p {
+      margin-top: 10px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .contact-line {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    section {
+      margin-top: 25px;
+    }
+
+    section h2 {
+      color: #ff5fa2;
+      border-left: 6px solid #6ec6ff;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px;
+      color: #666;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="doll left"></div>
+    <div class="doll right"></div>
+
+    <header>
+      <div class="profile-pic">
+      </div>
+      <div class="header-text">
+        <h1>Talita Yosevin Hutabarat</h1>
+        <p>
+            Saya memiliki kemampuan dalam graphic desaigner. Saya bersemangat untuk membuat suatu inovasi baru,
+            memiliki motivasi tinggi dalam belajar, mudah menyesuaikan dengan lingkungan baru, dapat berkomunikasi dengan baik dan lancar,
+            pantang menyerah, serta dapat bekerja secara tim.
+        </p>
+        <div class="contact-line">
+          📞 0812-9810-4957 (WA) | 0852-1736-3096 | ✉️ talitayosevinhutabarat@gmail.com | 📍 JL. Mujair 2 No.194, Pancoran Mas, Depok
+        </div>
+      </div>
+    </header>
+
+    <section class="two-column">
+      <div>
+        <h2>Education</h2>
+        <ul>
+          <li><strong>SMKS Grafika Desa Putera</strong> (2023 - Sekarang)</li>
+          <li><strong>SMP Negeri 10 Depok</strong> (2020 - 2023)</li>
+          <li><strong>SD Santha Theresia Depok</strong> (2014 - 2020)</li>
+        </ul>
+
+        <h2>Software Skill</h2>
+        <ul>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>CorelDraw</li>
+          <li>Adobe InDesign</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Experience</h2>
+        <ul>
+          <li>Magang di PT Bintang Sempurna divisi Digital Marketing sebagai Graphic Designer, Content Creator, & Copy Writting</li>
+          <li> Freelance Graphic Desaigner</li>
+          
+        </ul>
+
+        <h2>Hobby</h2>
+        <ul>
+          <li>Olahraga</li>
+          <li>Musik</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 - Curriculum Vitae
+    </footer>
+  </div>
+</body>
+</html>
